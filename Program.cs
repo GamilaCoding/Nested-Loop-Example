@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,7 @@ namespace NestedFor
     {
         static void Main(string[] args)
         {
+//             employe = emp & departement = dep
             for (int dep = 1; dep <= 4; dep++)
             {
                 Console.WriteLine("Department " +dep);
